@@ -1,0 +1,24 @@
+package com.axel.project.model;
+
+import lombok.*;
+
+@Builder
+@Data
+@EqualsAndHashCode(callSuper = false)
+@AllArgsConstructor
+@NoArgsConstructor
+//@Entity
+//@Table(name = "examenes")
+public class ExamenFinal {
+
+    //@Id
+    private Integer codigoMateria;
+    private String materia;
+    private String departamento;
+    private String fechaExamen;
+    private Integer cantidadInscriptos;
+    private String condicion;
+    private Integer aulaAsignada;
+    private String publicacionNotas;
+    private Double importeIncripciones;
+}
