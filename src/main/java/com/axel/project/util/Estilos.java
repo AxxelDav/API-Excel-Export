@@ -4,8 +4,7 @@ import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellRangeAddress;
 import org.apache.poi.ss.util.RegionUtil;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
-import java.util.List;
+import org.springframework.stereotype.Component;
 
 public class Estilos {
 
@@ -46,7 +45,6 @@ public class Estilos {
     }
 
 
-
     public static CellStyle createContentStyle(XSSFWorkbook workbook, Font font, HorizontalAlignment cellAlignHorizontal, VerticalAlignment cellAlignVertical, boolean cellBorder) {
         CellStyle estilo = workbook.createCellStyle();
         estilo.setFont(font);
@@ -69,13 +67,6 @@ public class Estilos {
         RegionUtil.setBorderRight(BorderStyle.THIN, new CellRangeAddress(primerfila, ultimaFila, primerColumna, ultimaColumna), sheet);
     }
 
-    public static void bordesFinoCeldaCombinadaCabeceraTabla(Sheet sheet, int primerfila, int ultimaFila, int primerColumna, int ultimaColumna) {
-        sheet.addMergedRegion(new CellRangeAddress(primerfila, ultimaFila, primerColumna, ultimaColumna));
-        RegionUtil.setBorderTop(BorderStyle.THIN, new CellRangeAddress(primerfila, ultimaFila, primerColumna, ultimaColumna), sheet);
-        RegionUtil.setBorderBottom(BorderStyle.THIN, new CellRangeAddress(primerfila, ultimaFila, primerColumna, ultimaColumna), sheet);
-        RegionUtil.setBorderLeft(BorderStyle.THIN, new CellRangeAddress(primerfila, ultimaFila, primerColumna, ultimaColumna), sheet);
-        RegionUtil.setBorderRight(BorderStyle.THIN, new CellRangeAddress(primerfila, ultimaFila, primerColumna, ultimaColumna), sheet);
-    }
 
     public static void aplicaEstiloCelda(Row dataRow, int primerColumna, CellStyle cellStyle) {
         Cell cell = dataRow.getCell(primerColumna);

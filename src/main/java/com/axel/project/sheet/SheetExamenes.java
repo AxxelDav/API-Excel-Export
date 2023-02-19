@@ -1,19 +1,26 @@
 package com.axel.project.sheet;
 
-import com.axel.project.data.GenerarDatosExamenes;
 import com.axel.project.sheet.content.ContenidoExamenes;
 import com.axel.project.sheet.header.CabeceraExamenes;
 import com.axel.project.sheet.title.Titulo;
 import com.axel.project.util.Estilos;
+import lombok.Data;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.List;
 
+@Component
+@Data
 public class SheetExamenes {
 
-    public static void gererarHojaExamenesFinales(XSSFWorkbook workbook) {
+    @Autowired
+    private ContenidoExamenes contenidoExamenes;
+
+    public void gererarHojaExamenesFinales(XSSFWorkbook workbook) {
 
         //Generacion de Fuentes
         Font titleFont = Estilos.createFont(workbook, IndexedColors.BLACK.getIndex(), (short)13, true);
@@ -39,7 +46,7 @@ public class SheetExamenes {
         CabeceraExamenes.cabeceraTabla(sheet, 3, 0, cabecera, headerStyle);
 
         //Contenido de Tabla
-        ContenidoExamenes.contenidoTabla(sheet, GenerarDatosExamenes.examenesFinalesDummy(), contentStyle, 4);
+        contenidoExamenes.contenidoTabla(sheet, contentStyle, 4);
 
         //Ajusta Ancho de las Columnas
         Estilos.ajustaAnchoDeColumna(sheet);

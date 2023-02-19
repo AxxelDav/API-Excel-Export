@@ -7,11 +7,8 @@ import lombok.*;
 @EqualsAndHashCode(callSuper = false)
 @AllArgsConstructor
 @NoArgsConstructor
-//@Entity
-//@Table(name = "examenes")
 public class ExamenFinal {
 
-    //@Id
     private Integer codigoMateria;
     private String materia;
     private String departamento;

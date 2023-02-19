@@ -1,0 +1,37 @@
+--INSERT INTO examenes (id, aula_designada, cantidad_de_inscriptos, codigo_materia, condicion, departamento, fecha_de_examen, importe_de_inscripciones, materia, publicacion_de_las_notas) VALUES (1, 805, 168, 1280, 'ALTA', 'Derecho', '19/07/2016', 35.960, 'Derecho Penal', '08/08/2016');
+--INSERT INTO examenes (id, aula_designada, cantidad_de_inscriptos, codigo_materia, condicion, departamento, fecha_de_examen, importe_de_inscripciones, materia, publicacion_de_las_notas) VALUES (2, 840, 150, 1280, 'NORMAL', 'Economicas', '19/07/2016', 35.960, 'Ingles', '05/08/2016');
+--INSERT INTO examenes (id, aula_designada, cantidad_de_inscriptos, codigo_materia, condicion, departamento, fecha_de_examen, importe_de_inscripciones, materia, publicacion_de_las_notas) VALUES (3, 704, 124, 1280, 'BAJA', 'Economicas', '20/07/2016', 35.960, 'Computacion', '03/08/2016');
+--INSERT INTO examenes (id, aula_designada, cantidad_de_inscriptos, codigo_materia, condicion, departamento, fecha_de_examen, importe_de_inscripciones, materia, publicacion_de_las_notas) VALUES (4, 860, 132, 1280, 'NORMAL', 'Economicas', '22/07/2016', 35.960, 'Estadistica', '13/08/2016');
+--INSERT INTO examenes (id, aula_designada, cantidad_de_inscriptos, codigo_materia, condicion, departamento, fecha_de_examen, importe_de_inscripciones, materia, publicacion_de_las_notas) VALUES (5, 881, 170, 1280, 'ALTA', 'Ingenieria', '23/07/2016', 35.960, 'Analisis Matematico', '12/08/2016');
+--INSERT INTO examenes (id, aula_designada, cantidad_de_inscriptos, codigo_materia, condicion, departamento, fecha_de_examen, importe_de_inscripciones, materia, publicacion_de_las_notas) VALUES (6, 805, 178, 1280, 'ALTA', 'Ingenieria', '25/07/2016', 35.960, 'Computacion', '11/08/2016');
+--INSERT INTO examenes (id, aula_designada, cantidad_de_inscriptos, codigo_materia, condicion, departamento, fecha_de_examen, importe_de_inscripciones, materia, publicacion_de_las_notas) VALUES (7, 809, 168, 1280, 'NORMAL', 'Ingenieria', '25/07/2016', 35.960, 'Computacion', '10/08/2016');
+--INSERT INTO examenes (id, aula_designada, cantidad_de_inscriptos, codigo_materia, condicion, departamento, fecha_de_examen, importe_de_inscripciones, materia, publicacion_de_las_notas) VALUES (8, 798, 145, 1280, 'BAJA', 'Ingenieria', '27/07/2016', 35.960, 'Sistemas Operativos', '20/08/2016');
+--INSERT INTO examenes (id, aula_designada, cantidad_de_inscriptos, codigo_materia, condicion, departamento, fecha_de_examen, importe_de_inscripciones, materia, publicacion_de_las_notas) VALUES (9, 834, 150, 1280, 'NORMAL', 'Medicina', '28/07/2016', 35.960, 'Enfermeria', '12/08/2016');
+--INSERT INTO examenes (id, aula_designada, cantidad_de_inscriptos, codigo_materia, condicion, departamento, fecha_de_examen, importe_de_inscripciones, materia, publicacion_de_las_notas) VALUES (10, 890, 200, 1280, 'ALTA', 'Medicina', '29/07/2016', 35.960, 'Biologia', '17/08/2016');
+--INSERT INTO examenes (id, aula_designada, cantidad_de_inscriptos, codigo_materia, condicion, departamento, fecha_de_examen, importe_de_inscripciones, materia, publicacion_de_las_notas) VALUES (11, 821, 198, 1280, 'BAJA', 'Medicina', '25/07/2016', 35.960, 'Anatomia', '17/08/2016');
+--
+
+
+--INSERT INTO `excel_export`.`examenes` (`id`, `aula_designada`, `cantidad_de_inscriptos`, `codigo_materia`, `condicion`, `departamento`, `fecha_de_examen`, `importe_de_inscripciones`, `materia`, `publicacion_de_las_notas`) VALUES ('1', '805', '168', '1280', 'ALTA', 'Derecho', '19/07/2016', '35.960', 'Derecho Penal', '08/08/2016');
+--
+--INSERT INTO `excel_export`.`examenes` (`id`, `aula_designada`, `cantidad_de_inscriptos`, `codigo_materia`, `condicion`, `departamento`, `fecha_de_examen`, `importe_de_inscripciones`, `materia`, `publicacion_de_las_notas`) VALUES ('2', '840', '150', '1280', 'NORMAL', 'Economicas', '19/07/2016', '35.960', 'Ingles', '05/08/2016');
+--
+--INSERT INTO `excel_export`.`examenes` (`id, `aula_designada`, cantidad_de_inscriptos, codigo_materia`, `condicion`, `departamento`, `fecha_de_examen`, `importe_de_inscripciones`, `materia, `publicacion_de_las_notas`) VALUES ('3', '704', 124', '1280', 'BAJA', 'Economicas', '20/07/2016', '35.960', 'Computacion', '03/08/2016');
+--
+--INSERT INTO `excel_export`.`examenes` (`id`, `aula_designada`, `cantidad_de_inscriptos`, `codigo_materia`, `condicion`, `departamento`, `fecha_de_examen`, `importe_de_inscripciones`, `materia`, `publicacion_de_las_notas`) VALUES ('4', '860', '132', '1280', 'NORMAL', 'Economicas', '22/07/2016', 35.960, 'Estadistica', '13/08/2016');
+--
+--INSERT INTO `excel_export`.`examenes` (`id`, `aula_designada`, `cantidad_de_inscriptos`, `codigo_materia`, `condicion`, `departamento`, `fecha_de_examen`, `importe_de_inscripciones`, `materia`, `publicacion_de_las_notas`) VALUES ('5', '881', '170', '1280', 'ALTA', 'Ingenieria', '23/07/2016', 35.960, 'Analisis Matematico', '12/08/2016');`
+--
+--INSERT INTO `excel_export`.`examenes` (`id`, `aula_designada`, `cantidad_de_inscriptos`, `codigo_materia`, `condicion`, `departamento`, `fecha_de_examen`, `importe_de_inscripciones`, `materia`, `publicacion_de_las_notas`) VALUES ('6', '805', '178', '1280', 'ALTA', 'Ingenieria', '25/07/2016', '35.960', 'Computacion', '11/08/2016');
+--
+--INSERT INTO `excel_export`.`examenes` (`id`, `aula_designada`, `cantidad_de_inscriptos`, `codigo_materia`, `condicio`n`, `departamento`, `fecha_de_examen`, `importe_de_inscripciones`, `materia`, `publicacion_de_las_notas`) VALUES ('7', '809', '168', '1280', 'NORMAL', 'Ingenieria', '25/07/2016', '35.960', 'Computacion', '10/08/2016');
+--
+--INSERT INTO `excel_export`.`examenes` (`id`, `aula_designada`, `cantidad_de_inscriptos`, `codigo_materia`, `condicion`, `departamento`, `fecha_de_examen`, `importe_de_inscripciones`, `materia`, `publicacion_de_las_notas`) VALUES ('8', '798', ''145'', ''1280'', 'BAJA', 'Ingenieria', '27/07/2016', '35.960', 'Sistemas Operativos', '20/08/2016');
+--
+--INSERT INTO `excel_export`.`examenes` (`id`, `aula_designada`, `cantidad_de_inscriptos`, `codigo_materia`, `condicion`, `departamento`, `fecha_de_examen`, `importe_de_inscripciones`, `materia`, `publicacion_de_las_notas`) VALUES ('9', '834', ''150'', ''1280'', 'NORMAL', 'Medicina', '28/07/2016', '35.960', 'Enfermeria', '12/08/2016');
+--
+--INSERT INTO `excel_export`.`examenes` (`id`, `aula_designada`, `cantidad_de_inscriptos`, `codigo_materia`, `condicion`, `departamento`, `fecha_de_examen`, `importe_de_inscripciones`, `materia`, `publicacion_de_las_notas`) VALUES ('10', '890', ''200'', ''1280'', 'ALTA', 'Medicina', '29/07/2016', '35.960', 'Biologia', '17/08/2016');
+--
+--INSERT INTO `excel_export`.`examenes` (`id`, `aula_designada`, `cantidad_de_inscriptos`, `codigo_materia`, `condicion`, `departamento`, `fecha_de_examen`, `importe_de_inscripciones`, `materia`, `publicacion_de_las_notas`) VALUES ('11', '821', ''198'', ''1280'', 'BAJA', 'Medicina', '25/07/2016', '35.960', 'Anatomia', '17/08/2016');
+--
+--
