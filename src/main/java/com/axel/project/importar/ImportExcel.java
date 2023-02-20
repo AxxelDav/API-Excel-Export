@@ -20,7 +20,7 @@ public class ImportExcel {
     private ProductServiceImpl productService;
 
     public void leerExcel() throws IOException {
-            FileInputStream archivoExcel = new FileInputStream("C:\\Users\\Usuario\\Desktop\\archivoExcel.xlsx"); //Colocamos ruta donde para buscar el archivo
+            FileInputStream archivoExcel = new FileInputStream("C:\dev\workspace\Java y Spring\excel-export\src\main\resources\archivoExcel.xlsx"); //Colocamos ruta donde para buscar el archivo
             XSSFWorkbook workbook = new XSSFWorkbook(archivoExcel); //Obtencion de libro Excel
             XSSFSheet sheet = workbook.getSheetAt(0);//Obtencion de primer hoja (indice 0) del libro Excel
             int numeroFilas = sheet.getLastRowNum();//Obtengo el numero de filas maximo de la hoja
