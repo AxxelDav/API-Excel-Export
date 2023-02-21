@@ -2,7 +2,7 @@
 
 
 #### Aplicacion que permite exportar un listado de examenes, alojados en la Base de Datos, en un archivo Excel: Hecha con Spring Boot, Apache POI, y MySQL
-#### Ademas tiene la funcionalidad de Leer un archivo Excel desde una ruta especifica y persistirlo en la Base de Datos.
+#### Ademas tiene la funcionalidad de Leer un archivo Excel desde una ruta especifica y persistir sus datos en la Base de Datos.
 
 Tecnologias utilizadas:
 - Java
